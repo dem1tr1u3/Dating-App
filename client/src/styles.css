@@ -1,0 +1,37 @@
+.tab-panel {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .member-tabset > .nav-tabs > li.open > a, .member-tabset > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #fc42fc;
+  }
+  
+  .member-tabset > .nav-tabs > li.open > a > i, .member-tabset > .nav-tabs > li:hover > a > i {
+    color: #ee57da;
+  }
+  
+  .member-tabset > .nav-tabs > li.open .dropdown-menu, .member-tabset > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  
+  .member-tabset > .nav-tabs > li.active {
+    border-bottom: 4px solid #f3048f;
+    position: relative;
+  }
+  
+  
+  .member-tabset > .nav-tabs > li.active > a > i {
+    color: #f73bce;
+  }
+  
+  .member-tabset > .tab-content {
+    margin-top: -3px;
+    border: 0;
+    border-top: 1px solid;
+    padding: 15px 0;
+  }
+  
